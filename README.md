@@ -12,6 +12,6 @@ No license information
 <i>If you are interested in the result of this project, you can find at: http://dawoonc.github.io/frontend-nanodegree-mobile-portfolio</i>
 
 
-## Words on Optimization
-Optimized files are can be found on both master branch and gh-pages branch.<br>
+## Notes
+Optimized files can be found on both master branch and gh-pages branch.<br>
 Only difference is that pizza.html file in the gh-pages branch has CSS inlined and minified to get better page speed score.
