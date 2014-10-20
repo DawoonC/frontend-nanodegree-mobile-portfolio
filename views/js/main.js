@@ -532,7 +532,9 @@ function updatePositions() {
   //var items = document.getElementsByClassName('mover');
   var phase = Math.sin(document.body.scrollTop / 1250);
   for (var i = 0; i < items.length; i++) {
-    items[i].style.transform = 'translate(' + ((i % 8) * 256 + 100 * (phase + (i % 5))) + 'px, 0px)';
+    items[i].style.transform = 'translate3d(' + ((i % 8) * 256 + 100 * (phase + (i % 5))) + 'px, 0px, 0px)';
+    //items[i].style.transform = 'translate3d(' + (100 * (phase)) + 'px, 0px, 0px)';
+    //items[i].style.left = (i % 8) * 256 + 100 * (phase + (i % 5)) + 'px';;
   }
 
   // User Timing API to the rescue again. Seriously, it's worth learning.
@@ -558,7 +560,7 @@ document.addEventListener('DOMContentLoaded',
   for (var i = 0; i < 32; i++) {
     var elem = document.createElement('img');
     elem.classList.add('mover');
-    elem.src = "images/pizza.png";
+    elem.src = "images/pizza_b.png";
     elem.style.height = "100px";
     elem.style.width = "73.333px";
     elem.style.left = '0px';
