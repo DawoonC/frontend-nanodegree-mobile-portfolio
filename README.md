@@ -9,7 +9,8 @@ Website Performance Optimization course at Udacity: https://www.udacity.com/cour
 No license information
 
 <br>
-<i>If you are interested in the result of this project, you can find at: http://dawoonc.github.io/frontend-nanodegree-mobile-portfolio</i>
+<i>If you are interested in the result of this project, you can find at: http://dawoonc.github.io/frontend-nanodegree-mobile-portfolio</i><br>
+<i>Page speed scores can be tested at here: https://developers.google.com/speed/pagespeed/insights/</i>
 
 
 ## Notes
